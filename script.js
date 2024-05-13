@@ -5,12 +5,12 @@ const defaultRatingIndex = 0;
 let currentRatingIndex = 0;
 
 const ratings = [
-  { emoji: "", name: "Give us rating" },
-  { emoji: "😔", name: "Very Poor" },
-  { emoji: "🙁", name: "Poor" },
-  { emoji: "🙂", name: "Good" },
-  { emoji: "🤩", name: "Very Good" },
-  { emoji: "🥰", name: "Excellent" }
+  { emoji: "", name: "Tu opinión" },
+  { emoji: "😔", name: "Muy malo" },
+  { emoji: "🙁", name: "Malo" },
+  { emoji: "🙂", name: "Bueno" },
+  { emoji: "🤩", name: "Muy bueno" },
+  { emoji: "🥰", name: "Excelente" }
 ];
 
 const checkSelectedStar = (star) => {
